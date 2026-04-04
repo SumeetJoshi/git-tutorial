@@ -1,0 +1,21 @@
+command : git 
+This helps to know the complete detail
+
+command : git -v
+Helps to know the version
+
+Setting the user name and emal
+
+$ git config --global user.name "Sumeet"
+$ git config --global user.email "sumeetjoshi568@gmail.com"
+
+$ git config --list
+
+
+staging area : It is the place where we can preview our commit
+
+$ git status
+This command helps us to know weather the file is repository or no
+
+$ git init
+Initialise the folder to git by creating the repository
