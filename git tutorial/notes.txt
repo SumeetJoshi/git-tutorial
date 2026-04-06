@@ -109,8 +109,27 @@ the in the git igore file write it as
 !filename.ext
 
 
-to pus the folder into git ignore
+to push the folder into git ignore
 in the git ignore write file_name/
+---------------------------------------------------------------------------------------
+To remove the particular file from the git use 
+git rm file_name.ext
+Note that this will also remove from the disk also
 
+again to get back the file do
+$ git restore --staged about.html
+$ git restore about.html
 
+to keep the about.html as untracked file
+
+---------------------------------------------------------------------------------------
+To rename the file 
+$ git mv important.log imp.log
+
+---------------------------------------------------------------------------------------
+To create the new branch and to switch my working to that branch
+$ git switch -c branch_name
+
+Now if any commit we do will be to the switched branch
+---------------------------------------------------------------------------------------
 
