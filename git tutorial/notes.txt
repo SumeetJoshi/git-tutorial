@@ -131,5 +131,8 @@ To create the new branch and to switch my working to that branch
 $ git switch -c branch_name
 
 Now if any commit we do will be to the switched branch
+
+To switch back to the master branch
+use : git switch master
 ---------------------------------------------------------------------------------------
 
