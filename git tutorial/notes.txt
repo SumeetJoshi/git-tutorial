@@ -260,6 +260,50 @@ Aborting""
 then use
 $ "git stash"
 it will save the changes in the temproary directory and then you can continue the merging
+____________________________________________________________________________________________________________________________________
+
+---------------------------------------Working with GitHub-------------------------------------------------------------------------
+
+To push the files inside the GitHub account
+use : git remote add origin https://github.com/SumeetJoshi/git-tutorial.git
+
+you get this above URL in your GitHub repository under
+"or push an existing repository from the command line"
+
+it means we added our remote to the GitHub
+
+To see remote added to our repo or no we use
+$ git remote -v
+
+It tells us to remanme our origin yo main
+git branch -M main
+
+$ git push -u origin main
+here we pushed all the files
+
+---------------------------------------------------------------------------------------
+git remote -v
+It shows the all remote repositories
+
+To push any repository we use 
+$ git push -u origin main
+
+---------------------------------------------------------------------------------------
+Steps of git push 
+
+git status [To check the status of file]
+git add file_name
+git commit -m "commit_message"
+git push origin main
+
+$git pull
+It pull the changes made by the somebody else
+
+
+
+
+
+
 
 
 
