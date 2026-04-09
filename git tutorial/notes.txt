@@ -298,9 +298,37 @@ git push origin main
 
 $git pull
 It pull the changes made by the somebody else
+---------------------------------------------------------------------------------------
+More detail on git stash
+
+For example you are working pn some file and suddenly you are assigned to other work
+so now ypu are told to complete the other work but you want to save the work which 
+you were doing and you cannot push it to github because the work is in progress so to save the 
+progressed work we use git stash
+
+So basically save the current progress something temproarily we use git stash
+
+to restore the stash file
+
+$ git stash apply
+git stash apply restores your saved changes while keeping them in the stash list
+
+$ git stash pop
+git stash pop restores those changes and immediately deletes them from the stash.
+
+It gives you the recent changes like
+Dropped refs/stash@{0} (17a7a17b3b8b245db8ac423da3bfcc19537a7310)
 
 
 
+
+the list if git stash appears as
+$ git stash list
+stash@{0}: WIP on main: 093a15c Some notes are added
+stash@{1}: WIP on master: 4dadc7e Added git ignore
+
+to apply or to drop or to work on any particular stash we can use
+$ git stash apply stash@{2}
 
 
 
